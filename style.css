@@ -1,0 +1,26 @@
+input {
+  border-radius: 25px !important;
+  background-color: #eeeeee !important;
+}
+
+/* #nav-pagination {
+    display: none;
+} */
+
+#nav-pagination .current {
+    background-color: #007BFF;
+    color: #f9f9f9;
+}
+
+#result {
+  column-count: 3;
+}
+
+#result img {
+  border-radius: 3px;
+  width: 100%;
+  margin: 10px 0;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
