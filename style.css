@@ -3,9 +3,9 @@ input {
   background-color: #eeeeee !important;
 }
 
-/* #nav-pagination {
+#nav-pagination {
     display: none;
-} */
+}
 
 #nav-pagination .current {
     background-color: #007BFF;
