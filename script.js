@@ -2,7 +2,7 @@ const BUTTON = document.getElementById("search-button");
 const PREV = document.getElementById("prev");
 const NEXT = document.getElementById("next");
 const LINKS = document.querySelectorAll(".page");
-// console.log(LINKS);
+console.log(LINKS);
 const CURRENT = document.querySelector(".current");
 let currentPage = 1;
 // console.log(LINKS);
@@ -84,7 +84,29 @@ getPhoto = () => {
         });
 }
 
-changeNumColorOnNext = () => {
+function changeNumColorOnNext () {
+
+    // for (let i = 0; i <= LINKS.length; i ++){
+        
+    //     let link = LINKS[i];
+    //     let beTrue = link.classList.contains("current");
+
+    //     console.log(beTrue);
+        
+    //     if (beTrue){
+    //         // console.log(LINKS[i].classList.contains("current"));
+    //         // console.log(LINKS[i]);
+
+    //         link.classList.remove("current");
+    //         // console.log(LINKS[i]);
+            
+    //         LINKS[i++].classList.add("current");
+    //         currentPage = link.tabIndex;
+    //         console.log(currentPage);
+    //         console.log(LINKS[i]);
+    //     }
+    // }
+
     if (LINKS[0].classList.contains("current")) {
         LINKS[0].classList.remove("current");
         LINKS[1].classList.add("current");
